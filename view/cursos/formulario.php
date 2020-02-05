@@ -2,7 +2,7 @@
 
 <form action="/salvar-curso<?= isset($curso) ? '?id=' . $curso->getId() : ''; ?>" method="post">
     <div class="form-group">
-        <label for="descricao">Descrição - Formulario Isolado</label>
+        <label for="descricao">Descrição Curso</label>
         <input type="text" id="descricao" name="descricao" class="form-control"
         value="<?= isset($curso) ? $curso->getDescricao() : ''; ?>">
     </div>
